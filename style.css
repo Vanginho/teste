@@ -1,0 +1,55 @@
+* {
+  padding: 8px;
+  margin: 3px;
+  text-align: center;
+}
+body {
+  background-image: url("https://img.freepik.com/fotos-gratis/incrivel-ceu-de-belas-artes-com-nuvens-coloridas_58702-1686.jpg?w=2000");
+  background-size: cover;
+}
+
+h1 {
+  margin-left: 90px;
+  font-size: 50px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 9px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+button:hover {
+  background-color: rgb(68, 190, 190);
+
+  box-shadow: none;
+}
+
+.sobrenome {
+  padding-right: 52px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.sex {
+  padding-right: 90px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.email {
+  padding-right: 0px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.tel {
+  padding-right: 32px;
+  font-style: italic;
+  font-size: 20px;
+}
+.nome {
+  font-style: italic;
+  font-size: 20px;
+}

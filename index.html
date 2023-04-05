@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário</title>
+  </head>
+  <body>
+   
+  </header>
+    <h1>Fale conosco!!</h1>
+    <div>
+    <form action="">
+      <label for="name" class="nome">Nome:</label>
+      <input type="text" placeholder="nome"required  /> 
+    
+    <div class="sobrenome">
+      <label for="name" >Sobrenome:</label>
+      <input type="text" placeholder="sobrenome" />
+    </div>
+    <div class="sex">
+      <label for="sex">Sexo:</label>
+      <select id="sex">
+       <option selected disabled value="">Selecione</option>
+       <option>Masculino</option>
+       <option>Feminino</option>
+      </select>
+   </div>
+
+    <div>
+      <label for="email" class="email">E-mail:</label>
+      <input
+        type="email" name="email"  id="email" placeholder="email" required/>
+    </div>
+    <div class="tel">
+      <label for="tel" >Telefone:</label>
+      <input type="tel" name="tel"  id="tel" placeholder="telefone" />
+    </div>
+    <div>
+      <fieldset>
+        <legend><h3>Cargos disponíveis:</h3></legend>
+        <input type="radio" name="sexo" id="sexo" />Ajudante geral
+        <input type="radio" name="sexo" id="sexo" />Ajudante de cozinha
+        <input type="radio" name="sexo" id="sexo" />Ajudante de limpeza
+        <input type="radio" name="sexo" id="sexo" />Ajudante de pedreiro
+      </fieldset>
+    </div>
+  
+      
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
